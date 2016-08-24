@@ -7,16 +7,22 @@
       <h1 style= "color: green;">Mad Gab for the WIN!!</h1>
       <main>
       </main>
+
       <script>
+//Variable names to be given a prompt first with the idea of pushing the answers 
+//later.
         var name;
-          name = prompt("Give me a name");
+          name      = prompt("Give me a name");
         var verb;
-        	verb = prompt("Give me a verb ending with 'ing'");
+        	verb      = prompt("Give me a verb ending with 'ing'");
         var noun;
-          noun = prompt("Give me a noun");
+          noun      = prompt("Give me a noun");
         var adjective;
           adjective = prompt("Give me an adjective");
 
+//the creation of the if/then statement. The idea is giving a different response
+//per person. So depending on the length of their name, whether that result is
+//even or add will give a different result.
         if(name.length%2==0){
           alert("One day " + name + " was " + verb + " in the  " + adjective +
           " daylight, where " + name + " came upon a very large " + noun +
@@ -27,7 +33,6 @@
           " around. This was when "+ name + " saw a " + adjective +
           " road, where " + name + " decided to start to follow to "
           + noun + " and it was then that they knew they went to far!")
-
         }
       </script>
     </body>
