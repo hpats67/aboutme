@@ -1,0 +1,19 @@
+h1{
+  font-family: serif;
+  font: times;
+  color: #ff8000;
+  font-size: 43;
+  background-color: transparent red;
+  border-color: black;
+  padding: 2px;
+}
+
+p{
+  font-family:sans-serif;
+  font:Ariel;
+}
+.page {
+  border-color: #ff2000;
+  background-color: #ff2200;
+  padding: inherit;
+}
